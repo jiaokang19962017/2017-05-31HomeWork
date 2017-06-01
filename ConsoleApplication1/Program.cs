@@ -74,8 +74,7 @@ namespace ConsoleApplication1
 
             #region 6.从数组中提取最大值
             /*   List<int> ls = new List<int>() { 1, 2, 4, 3, 415, 5, 666, 7 };
-               //int result =  ls.Max();
-               // Console.WriteLine(result);
+             
                int temp;
                for (int i = 0; i <ls.Count ; i++)
                {
@@ -121,6 +120,32 @@ namespace ConsoleApplication1
 
             #region 8.字母出现次数
 
+            #endregion
+
+            #region 10.冒泡排序
+            /*        int[] array = { 1, 3, 5, 9, 10, 26, 7 };
+                    int temp;
+                    for (int i = 0; i < array.Length; i++)
+                    {
+                        for (int j = i+1; j < array.Length; j++)
+                        {
+                            if (array[j] < array[i]) 
+                            {
+                                temp = array[j];
+                                array[j] = array[i];
+                                array[i] = temp;
+                            }
+                        }
+                    }
+                    foreach (int item in array)
+                    {
+                        Console.WriteLine(item);
+                    }*/
+            #endregion
+
+            #region 11.图书
+           
+            
             #endregion
         }
     }
